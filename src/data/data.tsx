@@ -11,8 +11,8 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -103,16 +103,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hello! My name is Debbie Fan, I graduated from Waterloo University's Civil Engineering program 
+  and am currently working at WSP, a civil engineering consulting firm. I've enjoyed learning how to design and manage projects and work
+  successfully with peers in fluid teams. As someone who's constantly looking to learn and develop my professional skills, I'm currently looking for new career 
+  opportunities in a new industry, to try something that my current job opportunities cannot provide.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Toronto, ON', Icon: MapIcon},
+    // {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / Hong Kong', Icon: FlagIcon},
+    {label: 'Interests', text: 'Drawing, DnD, Board Games, Video Games', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Waterloo', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'WSP', Icon: BuildingOffice2Icon},
   ],
 };
 
