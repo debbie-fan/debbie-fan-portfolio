@@ -268,17 +268,27 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2015 - 2020',
+    location: 'University of Waterloo',
+    title: 'BASc Civil Engineering',
+    content: <p>5 year program with 6 co-op terms in Civil Engineering: a broad program teaching teamwork, 
+      and problem-solving skills. The co-op terms provide valuable work experience in developing project management and design skills.</p>
+    // content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Fall 2018',
+    location: 'University of Leeds',
+    title: 'International Exchange',
+    content: <p>4 month international exchange term in England. A great experience in exploring other cultures and adapting to a 
+      different education system. Fall term is especially fun with the Christmas markets!</p>,
   },
+  {
+    date: 'April 2023',
+    location: 'Harvard - Online Course',
+    title: 'CS50: Introduction to Computer Science',
+    content: <p>Self-directed learning on the fundamentals of computer science. Taught by David J. Malan, the course is engaging, 
+      thorough, and increased my interest and confidence in programming.</p>,
+  }
 ];
 
 export const experience: TimelineItem[] = [
