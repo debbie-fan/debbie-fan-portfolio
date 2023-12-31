@@ -103,7 +103,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hello! My name is Debbie Fan, I graduated from Waterloo University's Civil Engineering program 
+  description: `Hello! My name is Debbie Fan, I graduated from University of Waterloo's Civil Engineering program 
   and am currently working at WSP, a civil engineering consulting firm. I've enjoyed learning how to design and manage projects and work
   successfully with peers in fluid teams. As someone who's constantly looking to learn and develop my professional skills, I'm currently looking for new career 
   opportunities in a new industry, to try something that my current job opportunities cannot provide.`,
