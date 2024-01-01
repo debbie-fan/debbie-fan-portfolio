@@ -293,24 +293,62 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2022 - Present',
+    location: 'WSP',
+    title: 'Designer, EIT',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <li>Design pipe network solutions that meet the restrictions and requirements set by the municipalities.</li>
+        <li>Coordinate with team members from multiple industries to efficiently complete tasks within deadlines.</li>
+        <li>Train new hires and co-op students on best practices with using AutoCAD Civil3D, BIM360, and design processes.</li>
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Jan 2019 - May 2022',
+    location: 'Urbantech Consulting | A Division of Leighton-Zec Ltd.',
+    title: 'Design Assistant',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <li>Two 4-month co-ops followed by full-time employment after graduation.</li>
+        <li>Prepare preliminary and detailed engineering design drawings, including Plan & Profiles, Grading Plans, etc. using AutoCAD Civil3D.</li>
+        <li>Assist with preparation of submission letters, ECA applications, and FSRs.</li>
+        <li>Coordinate with project managers, clients, and approval agencies to prepare projects for submission.</li>
+        <li>Draft, design and make revisions to engineering plans for subdivision and site plan projects throughout the GTA.</li>
+      </p>
+    ),
+  },
+  {
+    date: 'May 2018 - Aug 2018',
+    location: 'Engage Engineering Ltd.',
+    title: 'Engineering Designer - Co-op',
+    content: (
+      <p>
+        <li>Completed storm and sanitary design sheets and drainage plans.</li>
+        <li>Assisted with the calculations and writing of FSR and SWM Reports.</li>
+        <li>Reduced the time required for calculations by automating excel processes with VBA code.</li>
+      </p>
+    ),
+  },
+  {
+    date: 'Sep 2017 - Dec 2017',
+    location: 'City of Hamilton',
+    title: 'Development Engineering Assistant - Co-op',
+    content: (
+      <p>
+        <li>Reviewed engineering drawings for subdivision projects according  to City standards.</li>
+        <li>Corresponded with developers and consultants regarding subdivision project statuses in the review process.</li>
+      </p>
+    ),
+  },
+  {
+    date: 'Jan 2017 - Apr 2017',
+    location: 'York Region',
+    title: 'Development Review Technician - Co-op',
+    content: (
+      <p>
+        <li>Reviewed development proposals, ensuring applications met York Region standards.</li>
+        <li>Assisted in drafting approval letters for site plan, commercial, and subdivision projects.</li>
       </p>
     ),
   },
