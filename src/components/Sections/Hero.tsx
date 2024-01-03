@@ -22,12 +22,11 @@ const Hero: FC = memo(() => {
         />
         <div className="z-10 max-w-screen-lg px-4 lg:px-0 columns-2">
           <div className="flex flex-col items-center gap-y-6 rounded-xl p-6 text-center">
-            <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">{name}</h1>
+            <h1 className="text-4xl font-bold text-white sm:text-6xl lg:text-9xl text-right">{name}</h1>
             {description}
             <div>
               <Image
                 alt={`${name}-prof-image`}
-                
                 placeholder="blur"
                 priority
                 src={profileImageSrc}
