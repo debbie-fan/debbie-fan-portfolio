@@ -39,6 +39,7 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import { profile } from 'console';
 
 /**
  * Page meta data
@@ -69,6 +70,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
+  profileImageSrc: profilepic,
   name: `Debbie Fan`,
   description: (
     <>
