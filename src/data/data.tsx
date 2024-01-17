@@ -40,7 +40,6 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
-import { profile } from 'console';
 
 /**
  * Page meta data
